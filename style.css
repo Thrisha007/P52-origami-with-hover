@@ -1,0 +1,125 @@
+.header {
+    color: blue;
+    text-align: center;
+    background-color: #000000;
+    padding: 30px;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+body{
+    background-color: #808080;;
+}
+
+.grid{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    border: solid;
+}
+
+.grid a{
+    margin-left: 20px;
+}
+
+a:link{
+    color: aqua;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 7px;
+}
+
+.press{
+    color: blueviolet;
+}
+
+.design{
+    color: blue;
+    background-color: #000000;
+    padding: -5px;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;;
+    justify-content: space-evenly;
+}
+
+.item{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item1 p{
+    margin-left: 55px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.item2 p{
+    margin-left: 90px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.item3 p{
+    margin-left: 90px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.item4 p{
+    margin-left: 110px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.item1:hover p{
+    opacity: 1;
+}
+
+.item1:hover img{
+    opacity: 0.3;
+}
+
+.item2:hover p{
+    opacity: 1;
+}
+
+.item2:hover img{
+    opacity: 0.3;
+}
+
+.item3:hover p{
+    opacity: 1;
+}
+
+.item3:hover img{
+    opacity: 0.3;
+}
+
+.item4:hover p{
+    opacity: 1;
+}
+
+.item4:hover img{
+    opacity: 0.3;
+}
